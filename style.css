@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#post-creation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#post-caption {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+#post-image {
+    margin-bottom: 10px;
+}
+
+#post-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header .username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-content img, .post-content video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.like-button, .comment-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.like-button i, .comment-button i {
+    margin-right: 5px;
+}
+
+.comments-section {
+    margin-top: 10px;
+}
+
+.comment {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment .comment-user {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.add-comment {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-comment input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.add-comment button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
